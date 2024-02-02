@@ -11,7 +11,7 @@ public class RandomUsage extends PeekValueUsage {
 	}
 
 	public int getPercent() {
-		return random.nextInt(this.peek) + 1;
+		return this.random.nextInt(this.peek) + 1;
 	}
 
 }
